@@ -1,0 +1,27 @@
+; Engine configuration file.
+; ONE SHOT · 一弹到底  —— 简易 3D 弹球解谜射击
+; 玩法借鉴：Ricochet Kills / 台球反射 / 子弹时间；新奇点：每次反弹子弹换色，只能击碎同色目标。
+
+config_version=5
+
+[application]
+
+config/name="ONE SHOT 一弹到底"
+config/description="一发子弹，反弹换色，打光所有同色目标。"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.6", "Forward Plus")
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+
+anti_aliasing/quality/msaa_3d=2
+anti_aliasing/quality/screen_space_aa=1
+lights_and_shadows/directional_shadow/soft_shadow_filter_quality=2
+environment/defaults/default_clear_color=Color(0.02, 0.025, 0.04, 1)

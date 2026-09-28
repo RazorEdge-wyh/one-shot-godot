@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dskqyavr5kpln"
+path="res://.godot/imported/console.obj-2854af5f04a04c9ce7289f05ad0342aa.mesh"
+
+[deps]
+
+files=["res://.godot/imported/console.obj-2854af5f04a04c9ce7289f05ad0342aa.mesh"]
+
+source_file="res://assets/models/console.obj"
+dest_files=["res://.godot/imported/console.obj-2854af5f04a04c9ce7289f05ad0342aa.mesh", "res://.godot/imported/console.obj-2854af5f04a04c9ce7289f05ad0342aa.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

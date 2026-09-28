@@ -1,0 +1,15 @@
+# Godot 4 生成物
+.godot/
+*.translation
+
+# 导出产物
+build/
+export_presets.cfg
+
+# 开发用临时目录
+.shots/
+.kenney_tree.json
+
+# Windows
+Thumbs.db
+desktop.ini
